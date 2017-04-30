@@ -1,0 +1,17 @@
+{
+  "name": "iochat",
+  "version": "1.0.0",
+  "description": "Realtime sensor streaming",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Dominick Lee",
+  "license": "ISC",
+  "dependencies": {
+    "express": "*",
+    "socket.io": "*",
+    "socketio-wildcard": "^0.4.0"
+  }
+}

@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+    <head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<script src="https://code.jquery.com/jquery-latest.min.js"></script>
+	<!--<script src="/socket.io/socket.io.js"></script>-->
+	<script src="node_modules/socket.io-client/dist/socket.io.js"></script>
+
+        <script>
+			//Parse JSON to string
+			function ParseJson(jsondata) {
+				try {
+					return JSON.parse(jsondata);
+				} catch (error) {
+					return null;
+				}
+			}
+
+            var socket = io.connect('http://'+window.location.hostname+':3000');
+				
+            socket.on('welcome', function(data) {
+                $('#messages').append('<li>' + data.message + '</li>');
+
+                socket.emit('atime', {data: 'foo!'});
+            });
+
+            socket.on('toPC', function(data) {
+				//Parse incoming data
+				var jsonStr = JSON.stringify(data);
+				var parsed = ParseJson(jsonStr);
+                $('#messages').append('<li>' + parsed.sensorID + ' : ' + parsed.msg + '</li>');
+            });
+		
+            socket.on('error', function() { console.error(arguments) });
+            socket.on('message', function() { console.log(arguments) });
+        </script>
+    </head>
+    <body>
+        <button type="button" id='button'>Send Message to Arduino</button> 
+<ul id='messages'></ul>
+
+    </body>
+</html>
