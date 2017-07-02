@@ -9,3 +9,14 @@ C:\Users\Dominick\Desktop\Potota Control\Potota Control\obj\Debug\Potota Control
 C:\Users\Dominick\Desktop\Potota Control\Potota Control\obj\Debug\Potota Control.xml
 C:\Users\Dominick\Desktop\Potota Control\Potota Control\obj\Debug\Potota Control.pdb
 C:\Users\Dominick\Desktop\Potota Control\Potota Control\bin\Debug\Potota Control.exe.config
+C:\Users\Dominick\Documents\GitHub\Potota\Vehicle\Potota Control\Potota Control\bin\Debug\Potota Control.exe.config
+C:\Users\Dominick\Documents\GitHub\Potota\Vehicle\Potota Control\Potota Control\obj\Debug\Potota Control.exe
+C:\Users\Dominick\Documents\GitHub\Potota\Vehicle\Potota Control\Potota Control\obj\Debug\Potota Control.xml
+C:\Users\Dominick\Documents\GitHub\Potota\Vehicle\Potota Control\Potota Control\obj\Debug\Potota Control.pdb
+C:\Users\Dominick\Documents\GitHub\Potota\Vehicle\Potota Control\Potota Control\bin\Debug\Potota Control.exe
+C:\Users\Dominick\Documents\GitHub\Potota\Vehicle\Potota Control\Potota Control\bin\Debug\Potota Control.pdb
+C:\Users\Dominick\Documents\GitHub\Potota\Vehicle\Potota Control\Potota Control\bin\Debug\Potota Control.xml
+C:\Users\Dominick\Documents\GitHub\Potota\Vehicle\Potota Control\Potota Control\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Dominick\Documents\GitHub\Potota\Vehicle\Potota Control\Potota Control\obj\Debug\Potota_Control.Form1.resources
+C:\Users\Dominick\Documents\GitHub\Potota\Vehicle\Potota Control\Potota Control\obj\Debug\Potota_Control.Resources.resources
+C:\Users\Dominick\Documents\GitHub\Potota\Vehicle\Potota Control\Potota Control\obj\Debug\Potota Control.vbproj.GenerateResource.Cache

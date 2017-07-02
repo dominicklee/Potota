@@ -233,6 +233,21 @@ Public Class Form1
     End Sub
 
     Private Sub streamTimer_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles streamTimer.Tick
+        Randomize()
+        ' The program will generate a number from 0 to 100
+        Dim rndLidar As Integer = Int(Rnd() * 100) + 1
+        Dim rndSonarFr As Integer = Int(Rnd() * 100) + 1
+        Dim rndSonarRe As Integer = Int(Rnd() * 100) + 1
+        Dim rndSonarLe As Integer = Int(Rnd() * 100) + 1
+        Dim rndSonarRi As Integer = Int(Rnd() * 100) + 1
+        Dim rndSpeed As Integer = Int(Rnd() * 100) + 1
+        valLidar.Text = rndLidar
+        valSonarFront.Text = rndSonarFr
+        valSonarRear.Text = rndSonarRe
+        valSonarLeft.Text = rndSonarLe
+        valSonarRight.Text = rndSonarRi
+        valSpeed.Text = rndSpeed
+
         Dim JSONline As String
         JSONline = "{""lidar"":" & valLidar.Text & ",""sonarFront"":" & valSonarFront.Text & ",""sonarRear"":" & valSonarRear.Text & ",""sonarLeft"":" & valSonarLeft.Text & ",""sonarRight"":" & valSonarRight.Text & ",""speed"":" & valSpeed.Text & "}"
         Try
